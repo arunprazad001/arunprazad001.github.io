@@ -2038,7 +2038,7 @@ input, select, textarea {
 
 	#nav {
 		background-color: #282828;
-		text-align: center;
+		
 		position: fixed;
 		left: 0;
 		top: 0;
@@ -2053,6 +2053,11 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 8px;
+		
 		}
 
 		#nav li {
