@@ -293,8 +293,10 @@ input, select, textarea {
 		
 	}
        #name,#subject,#message,#email,#clear{
-		 background-color: black;
+		 background-color: beige;
+		 
 	   }
+	  
 		.row > * {
 			box-sizing: border-box;
 			
@@ -1565,7 +1567,8 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: white !important;
+		color:black !important;
+		font-size: 14px;
 	}
 
 	form :-moz-placeholder {
