@@ -290,10 +290,14 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		
 	}
-
+       #name,#subject,#message,#email,#clear{
+		 background-color: black;
+	   }
 		.row > * {
 			box-sizing: border-box;
+			
 		}
 
 		.row.gtr-uniform > * > :last-child {
@@ -1270,6 +1274,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				
 			}
 
 				.row > * {
@@ -1515,6 +1520,7 @@ input, select, textarea {
 		font-weight: 700;
 		display: block;
 		margin: 0 0 0.5em 0;
+		
 	}
 
 	form input[type=text],
@@ -1537,6 +1543,7 @@ input, select, textarea {
 		color: #bbb;
 		box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
 		width: 100%;
+		
 	}
 
 		form input[type=text]:focus,
@@ -1546,6 +1553,7 @@ input, select, textarea {
 		form textarea:focus {
 			background: #fafafa;
 			box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;
+			
 		}
 
 	form textarea {
@@ -1557,7 +1565,7 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #555 !important;
+		color: white !important;
 	}
 
 	form :-moz-placeholder {
@@ -1807,10 +1815,10 @@ input, select, textarea {
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #444;
+					background-color: black;
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
-					color: #2E2E2E !important;
+					color: white !important;
 					display: block;
 					font-size: 26px;
 					height: 48px;
@@ -1890,9 +1898,9 @@ input, select, textarea {
 					top: -5px;
 				}
 
-					ul.social li a:hover:before {
+					/* ul.social li a:hover:before {
 						background-color: transparent;
-					}
+					} */
 
 /* Actions */
 
