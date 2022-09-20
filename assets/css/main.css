@@ -1843,7 +1843,8 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-linkedin-in {
-					background-color: #006599;
+					/* background-color: #006599; */
+					background-color: black;
 				}
 
 				ul.social li a.fa-tumblr {
@@ -1855,7 +1856,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-github {
-					background-color: #FAFAFA;
+					background-color: black;
 				}
 
 				ul.social li a.fa-rss {
@@ -1897,8 +1898,8 @@ input, select, textarea {
 				ul.social li a:hover {
 					top: -5px;
 				}
-
-					/* ul.social li a:hover:before {
+/* 
+					ul.social li a:hover:before {
 						background-color: transparent;
 					} */
 
