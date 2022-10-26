@@ -7,6 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -83,9 +84,7 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
-		padding-top: 3.5em;
-	}
+	
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -243,6 +242,8 @@ input, select, textarea {
 				.container.medium {
 					width: 900px;
 				}
+
+
 
 		}
 
@@ -1514,7 +1515,7 @@ input, select, textarea {
 						}
 
 		}
-
+		
 /* Form */
 
 	form label {
@@ -2262,9 +2263,7 @@ input, select, textarea {
 
 		/* Basic */
 
-			body {
-				padding-top: 44px;
-			}
+			
 
 			body, input, textarea, select {
 				line-height: 1.75em;
@@ -2426,7 +2425,7 @@ input, select, textarea {
 		/* Articles */
 
 			#top {
-				padding: 3em 0;
+				padding: 5em 0;
 			}
 
 				#top .image {
