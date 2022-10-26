@@ -13,10 +13,12 @@
 		width: 100%;
 		z-index: 100000;
 		transition: 0.5s ease-in;
+		
 	}
 
 	.topnav #myLinks {
 		display: none;
+		
 	}
 
 	.topnav a {
@@ -25,11 +27,13 @@
 		text-decoration: none;
 		font-size: 17px;
 		display: block;
+		
 	}
 
 	.topnav a.icon {
 		background: royalblue;
 		display: block;
+		
 	}
 
 	.topnav a:hover {
@@ -45,12 +49,18 @@
 
 	.topnav {
 		display: none;
+		position: fixed;
 	}
 
 	@media screen and (max-width: 530px) {
 		#streak {
 			width: 330px;
 		}
+		.topnav {
+		
+		position: fixed;
+	}
+
 	}
 
 	@media screen and (max-width: 475px) {
@@ -61,6 +71,7 @@
 
 		.topnav {
 			display: block;
+			position: fixed;
 		}
 
 		li::marker {
