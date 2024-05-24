@@ -2160,6 +2160,16 @@ input, select, textarea {
 
 /* Copyright */
 
+.developer-bio {
+	margin-top: 20px;
+	color: grey;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
 	#copyright {
 		color: #666;
 		font-size: 1em;
